@@ -1,0 +1,26 @@
+.checkout__basket {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.checkout__ad {
+    margin: 15px;
+    margin-right: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-height: 150px;
+    display: flex;
+}
+
+.checkout__ad_img {
+    max-height: 170px;
+    margin-top: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+}
+
+.checkout__ad_text {
+    padding-left: 30px;
+    padding-top: 40px;
+}
