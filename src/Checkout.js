@@ -1,6 +1,7 @@
 import React from 'react'
 import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct'
+import Subtotal from './Subtotal'
 import { useStateValue } from './StateProvider'
 
 const Checkout = () => {
@@ -8,6 +9,7 @@ const Checkout = () => {
 
     return (
         <div className="checkout">
+            <div className="checkout__left">
             <div className="checkout__ad">
                 <img 
                     className="checkout__ad_img" 
@@ -47,6 +49,14 @@ const Checkout = () => {
                                 />
                             ))
                         }
+                    </div>
+                )
+            }
+            </div>
+            {
+                basket.length > 0 && (
+                    <div className="checkout__right">
+                        <Subtotal />
                     </div>
                 )
             }

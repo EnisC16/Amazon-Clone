@@ -24,3 +24,10 @@
     padding-left: 30px;
     padding-top: 40px;
 }
+
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
